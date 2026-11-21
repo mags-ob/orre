@@ -2115,6 +2115,7 @@ Grumpig
 Level: 42
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
+/* ORRE: party expanded for double battles */
 === TRAINER_CINDY_1 ===
 Name: CINDY
 Class: Lady
@@ -2127,6 +2128,10 @@ AI: Check Bad Move
 
 Zigzagoon @ Nugget
 Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Skitty
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAPHNE ===
@@ -2519,6 +2524,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Glare
 - Crunch
 
+/* ORRE: party expanded for double battles */
 === TRAINER_WINSTON_1 ===
 Name: WINSTON
 Class: Rich Boy
@@ -2531,6 +2537,10 @@ AI: Check Bad Move
 
 Zigzagoon @ Nugget
 Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MOLLIE ===
@@ -5126,6 +5136,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Ice Beam
 - Rest
 
+/* ORRE: party expanded for double battles */
 === TRAINER_JERRY_1 ===
 Name: JERRY
 Class: School Kid
@@ -5137,6 +5148,10 @@ AI: Check Bad Move
 
 Ralts
 Level: 9
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Whismur
+Level: 8
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_TED ===
@@ -5245,6 +5260,7 @@ Medicham
 Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
+/* ORRE: party expanded for double battles */
 === TRAINER_KAREN_1 ===
 Name: KAREN
 Class: School Kid
@@ -5256,6 +5272,10 @@ AI: Check Bad Move
 
 Shroomish
 Level: 9
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Taillow
+Level: 8
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_GEORGIA ===
@@ -5505,6 +5525,7 @@ Zigzagoon @ Oran Berry
 Level: 16
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
+/* ORRE: party expanded for double battles */
 === TRAINER_MIGUEL_1 ===
 Name: MIGUEL
 Class: Pokefan
@@ -5516,6 +5537,10 @@ AI: Check Bad Move
 
 Skitty @ Oran Berry
 Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Whismur
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_COLTON ===
@@ -5942,6 +5967,7 @@ Hariyama
 Level: 39
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
+/* ORRE: party expanded for double battles */
 === TRAINER_CALVIN_1 ===
 Name: CALVIN
 Class: Youngster
@@ -5953,6 +5979,10 @@ AI: Check Bad Move
 
 Poochyena
 Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zigzagoon
+Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BILLY ===
@@ -6003,6 +6033,7 @@ Geodude
 Level: 8
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
+/* ORRE: party expanded for double battles */
 === TRAINER_JOEY ===
 Name: JOEY
 Class: Youngster
@@ -6014,6 +6045,14 @@ AI: Check Bad Move
 
 Machop
 Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zigzagoon
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEN ===
@@ -11081,6 +11120,7 @@ Shroomish
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+/* ORRE: party expanded for double battles */
 === TRAINER_JANICE ===
 Name: JANICE
 Class: Lass
@@ -11092,6 +11132,14 @@ AI: Check Bad Move
 
 Marill
 Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Skitty
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zigzagoon
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_VIVI ===
@@ -11543,6 +11591,7 @@ Graveler
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+/* ORRE: party expanded for double battles */
 === TRAINER_CLARK ===
 Name: CLARK
 Class: Hiker
@@ -11553,6 +11602,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12970,6 +13023,7 @@ Zigzagoon @ Nugget
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+/* ORRE: party expanded for double battles */
 === TRAINER_DARIAN ===
 Name: DARIAN
 Class: Fisherman
@@ -12981,6 +13035,14 @@ AI: Check Bad Move
 
 Magikarp
 Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magikarp
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Tentacool
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HAILEY ===
@@ -13060,6 +13122,7 @@ Magnemite
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+/* ORRE: party expanded for double battles */
 === TRAINER_MARCOS ===
 Name: MARCOS
 Class: Guitarist
@@ -13073,6 +13136,11 @@ Voltorb
 Level: 15
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
+Electrike
+Level: 15
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+/* ORRE: party expanded for double battles */
 === TRAINER_RHETT ===
 Name: RHETT
 Class: Black Belt
@@ -13083,6 +13151,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Makuhita
+Level: 15
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Machop
 Level: 15
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -13551,6 +13623,7 @@ Camerupt
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
+/* ORRE: party expanded for double battles */
 === TRAINER_PETE ===
 Name: PETE
 Class: Swimmer M
@@ -13559,6 +13632,16 @@ Gender: Male
 Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
+
+Tentacool
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+/* ORRE: party expanded for double battles */
+
+Wingull
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
 Level: 15
@@ -13575,6 +13658,14 @@ AI: Check Bad Move
 
 Marill
 Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Wingull
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Tentacool
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ANDRES_1 ===

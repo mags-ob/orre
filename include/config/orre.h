@@ -19,4 +19,10 @@
 #define ORRE_BEFRIEND_TRUST_MAX             100 // Trust needed to befriend.
 #define ORRE_BEFRIEND_TRUST_PER_ACTION      20  // Trust gained per successful befriending action.
 
+// Battle format
+#define ORRE_TRAINER_BATTLES_ALWAYS_DOUBLE  TRUE // Every trainer battle is a double battle. Wild battles stay single.
+#define ORRE_DOUBLES_FALLBACK_TO_SINGLE     TRUE // If the trainer has only one Pokémon, or the player has only one usable
+                                                 // Pokémon, fight a single battle instead of a double battle. Also applies to
+                                                 // trainers marked as double-battle trainers, which otherwise refuse to fight.
+
 #endif // GUARD_CONFIG_ORRE_H

@@ -59,6 +59,7 @@
 #include "constants/trainers.h"
 #include "constants/trainer_hill.h"
 #include "constants/weather.h"
+#include "orre_battle.h" // ORRE
 
 enum TransitionType
 {
@@ -1235,7 +1236,8 @@ static void BattleSetup_ConfigureTrainerBattle(TrainerBattleParameter *battlePar
         return;
     }
 
-    if (battleParams->params.isDoubleBattle && !HasEnoughMonsForDoubleBattle2())
+    if (!ORRE_DOUBLES_FALLBACK_TO_SINGLE // ORRE: fall back to a single battle instead of refusing
+     && battleParams->params.isDoubleBattle && !HasEnoughMonsForDoubleBattle2())
     {
         PUSH(EventSnippet_NotEnoughMonsForDoubleBattle)
         return;
@@ -1502,7 +1504,7 @@ void BattleSetup_StartTrainerBattle(void)
 
         SetHillTrainerFlag();
     }
-    else if (GetTrainerBattleType(TRAINER_BATTLE_PARAM.opponentA) == TRAINER_BATTLE_TYPE_DOUBLES)
+    else if (Orre_IsTrainerDoubleBattle(TRAINER_BATTLE_PARAM.opponentA)) // ORRE
     {
         gBattleTypeFlags |= BATTLE_TYPE_DOUBLE;
     }
@@ -1657,7 +1659,7 @@ static void CB2_EndRematchBattle(void)
 void BattleSetup_StartRematchBattle(void)
 {
     gBattleTypeFlags = BATTLE_TYPE_TRAINER;
-    if (GetTrainerBattleType(TRAINER_BATTLE_PARAM.opponentA) == TRAINER_BATTLE_TYPE_DOUBLES)
+    if (Orre_IsTrainerDoubleBattle(TRAINER_BATTLE_PARAM.opponentA)) // ORRE
         gBattleTypeFlags |= BATTLE_TYPE_DOUBLE;
     
     gMain.savedCallback = CB2_EndRematchBattle;

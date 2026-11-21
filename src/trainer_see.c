@@ -583,9 +583,14 @@ static u8 CheckTrainer(u8 objectEventId)
         if (temp->params.isDoubleBattle)
         {
             if (GetMonsStateToDoubles_2() != PLAYER_HAS_TWO_USABLE_MONS)
-                return 0;
-
-            numTrainers = 2;
+            {
+                if (!ORRE_DOUBLES_FALLBACK_TO_SINGLE) // ORRE: otherwise approach anyway; battle falls back to single
+                    return 0;
+            }
+            else
+            {
+                numTrainers = 2;
+            }
         }
     }
 
